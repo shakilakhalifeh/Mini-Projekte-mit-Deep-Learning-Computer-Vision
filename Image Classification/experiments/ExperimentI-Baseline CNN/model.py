@@ -1,13 +1,17 @@
 """
 Model: CNN Architekture
 
-Conv2D(filters, kernel) --> z.B.: Conv2D(32, 3x3)
+* Conv2D(filters, kernel) --> z.B.: Conv2D(32, 3x3)
 
-Bedeutung:
+Bedeutung: 32 Feature Maps, Kernel = 3x3   --> Das Modell lernt: edges, textures, shapes
 
-32 Feature Maps, Kernel = 3x3
+* MaxPooling2D(2,2)  --> Reduziert Bildgröße: 64x64 → 32x32
+Vorteile: weniger computation  und weniger overfitting
+ 
+* Flatten() -> wandelt: feature map → vector
+Beispiel: 32x32x64 → 65536
 
-Das Modell lernt: edges, textures, shapes
+* Dense(128)  -> klassifiziert Features.
 
 """
 
