@@ -1,1 +1,1 @@
-# Mini-Projekte-mit-Deep-Learning-Computer-Vision
+# Mini-Projekte:Deep Learning and Computer Vision
